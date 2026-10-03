@@ -22,8 +22,8 @@ public class AppContext {
         dataSource.setUrl("jdbc:mysql://localhost:3306/quanlycanho?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
 
         // KIỂM TRA TÀI KHOẢN: Điền đúng user/password MySQL trên máy của bạn
-        dataSource.setUsername("root");
-        dataSource.setPassword("nhunguy@123");
+        dataSource.setUsername("");
+        dataSource.setPassword("");
         return dataSource;
     }
 
